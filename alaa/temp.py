@@ -6,7 +6,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 import seaborn as sns
 import matplotlib.pyplot as plt
-
+#mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 data=pd.read_csv("heart.csv")
 print(data.isnull().sum())
 x=data.iloc[:,:-1]
